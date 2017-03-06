@@ -10,14 +10,14 @@
 
 //************************* VARIABLES ***************************
 
-int tempAigua = 101;
+int tempAigua = 100;
 
 //*************************** SETUP *****************************
 
 void setup() 
 {
-  Serial.begin(9600);     // set up Serial library at 9600 bps
-
+  Serial.begin(9600);     
+  
   if ( tempAigua > 100)
   {
     Serial.print("Aigua supera els 100C, esta bullint!");
